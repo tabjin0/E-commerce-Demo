@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sign in</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/signInAndRegister.css">
+</head>
+<body>
+	<header class="header">
+		<!-- <div class="top">
+			<div class="allWidth">
+				<div class="topLeft">
+					<a href="http://www.baidu.com" class="love">收藏本页</a>
+				</div>
+				<div class="topRight">
+					Welcome!
+					<a href="">登录</a>
+					<a href="">注册</a>
+				</div>
+			</div>
+		</div> -->
+		<div class="logoBox loginLogo">
+			<div class="allWidth">
+				<!-- logo部分 -->
+				<div class="logo fl">
+					<a href="index.html"><img src="./imgs/xiaojin.jpg" alt="xiaojin"></a>
+				</div>
+				<h3 class="welcomeTitle">欢迎登录</h3>
+				<!-- 搜索部分 -->
+				<!-- <div class="searchBox fl">
+					<input type="text" class="searchText fl">
+					<input type="button" class="searchBtn fr" value="搜 索">
+				</div> -->
+				<!-- 购物车部分 -->
+				<!-- <div class="shopCar fr">
+					<span class="shopText fl">购物车</span>
+					<span class="shopNum fl">0</span>
+				</div> -->
+		  	</div>
+		</div>
+	</header>
+	<div class="loginBox">
+		<form class="form" action="post">
+			<ul class="loginUl">
+				<li>
+					<label class="inputLabel" for="account">邮箱&nbsp/&nbsp用户名&nbsp/&nbsp手机号</label>
+					<input class="inputText userIcon" type="text" name="account">
+				</li>
+				<li>
+					<label class="inputLabel" for="pwd">密&nbsp码</label>
+					<input class="inputText pwdIcon" type="password" name="pwd">
+				</li>
+				<li class="check"><input id="autoIn" type="checkbox" name="autoIn"><label for="autoIn">自动登录</label></li>
+				<li class="check"><input id="safe" type="checkbox" name="safe"><label for="safe">安全控件登录</label></li>
+				<a href="###">忘记密码？</a>
+				<li><input class="loginBtn" type="button" value="登录"></li>
+			</ul>
+			<div class="partners">
+				<p>使用合作方账号登录</p>
+				<span><a href="###"> QQ |</a></span>
+				<span><a href="###"> 网易 |</a></span>
+				<span><a href="###"> 百度 |</a></span>
+				<span><a href="###"> 人人 |</a></span>
+				<span><a href="###"> 更多</a></span>
+			</div>
+		</form>
+		<a class="loginLink" href="###">免费注册&gt;&gt;</a>
+	</div>
+	<footer id="footer">
+		<div class="footertop">
+			<div class="block left">
+				<h2>作者</h2>
+				<hr>
+				<ul>
+					<li>jinboy</li>
+				</ul>
+			</div>
+			<div class="block center">
+				<h2>时间地点</h2>
+				<hr>
+				<ul>
+					<li>2015.10</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+			<div class="block right">
+				<h2>mail me !</h2>
+				<hr>
+				<ul>
+					<li>529194627@qq.com</li>
+					<li>zjdefine@163.com</li>
+				</ul>
+			</div>
+			<!-- class里面用block left一个是为了方便css比如三个div样式一样一个block指明，但是如果单个微调就不一样，要css中标明block left具体 -->
+		</div>
+		<div class="bottom">powered by &copy jinboy</div>
+	</footer>
+</body>
+</html>

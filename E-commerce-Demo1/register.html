@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/signInAndRegister.css">
+</head>
+<body>
+	<header class="header">
+		<div class="logoBox regLogo">
+			<div class="allWidth">
+				<!-- logo部分 -->
+				<div class="logo fl">
+					<a href="./index.html"><img src="./imgs/xiaojin.jpg" alt="xiaojin"></a>
+				</div>
+				<h3 class="welcomeTitle">欢迎注册</h3>
+		  	</div>
+		</div>
+	</header>
+	<div class="regBox">
+		<form class="form" action="post">
+			<ul class="regUl">
+				<li>
+					<label class="inputLabel" for=""><span class="redStar">*&nbsp</span>账户名</label>
+					<input class="inputText userIcon" type="text" name="account" placeholder="邮箱&nbsp/&nbsp用户名&nbsp/&nbsp手机号">
+				</li>
+				<li>
+					<label class="inputLabel" for=""><span class="redStar">*&nbsp</span>请输入密码</label>
+					<input class="inputText pwdIcon" type="password" name="pwd">
+				</li>
+				<li>
+					<label class="inputLabel" for=""><span class="redStar">*&nbsp</span>请确认密码</label>
+					<input class="inputText" type="password" name="">
+				</li>
+				<li>
+					<label class="inputLabel" for=""><span class="redStar">*&nbsp</span>邮箱</label>
+					<input class="inputText" type="text" name="">
+				</li>
+				<li>
+					<label class="inputLabel" for=""><span class="redStar">*&nbsp</span>地址</label>
+					<input class="inputText" type="text" name="">
+				</li>
+				<li class="provision" >
+					<label class="inputLabel" for=""><span class="redStar">&nbsp</span></label>
+					<input id="provision" type="checkbox"><label for="provision">我已经阅读并同意&lt;&lt;<span>用户注册协议</span>&gt;&gt;</label>
+				</li>
+				<li>
+					<label class="inputLabel" for=""><span class="redStar">&nbsp</span></label>
+					<input class="regBtn" type="button" value="提交">
+				</li>
+			</ul>
+		</form>
+	</div>
+	<footer id="footer">
+		<div class="footertop">
+			<div class="block left">
+				<h2>作者</h2>
+				<hr>
+				<ul>
+					<li>jinboy</li>
+				</ul>
+			</div>
+			<div class="block center">
+				<h2>时间地点</h2>
+				<hr>
+				<ul>
+					<li>2015.10</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+			<div class="block right">
+				<h2>mail me !</h2>
+				<hr>
+				<ul>
+					<li>529194627@qq.com</li>
+					<li>zjdefine@163.com</li>
+				</ul>
+			</div>
+			<!-- class里面用block left一个是为了方便css比如三个div样式一样一个block指明，但是如果单个微调就不一样，要css中标明block left具体 -->
+		</div>
+		<div class="bottom">powered by &copy jinboy</div>
+	</footer>
+
+
+
+</body>
+</html>
